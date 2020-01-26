@@ -1,411 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7724b59f-4169-499f-a66c-e6ccec56105e" name="Default" comment="events done">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/font/Flaticon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/font/Flaticon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/font/Flaticon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/license/license.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/ionicons/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/ionicons/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/ionicons/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/ionicons/fonts/ionicons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/open-iconic/open-iconic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/open-iconic/open-iconic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/open-iconic/open-iconic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/open-iconic/open-iconic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/boats.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/destination-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/destination-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/destination-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/destination-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/destination-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/destination-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hotel-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hotel-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hotel-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hotel-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hotel-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hotel-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/image_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/kalinchowk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/khap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/khaptad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/khaptadbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/loc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/mount.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/mountain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/parag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/person_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/person_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/person_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/person_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/pokh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/pokhara.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/restaurant-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/restaurant-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/restaurant-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/restaurant-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/restaurant-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/restaurant-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/room-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/room-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/room-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/room-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/room-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/room-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/license/license.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/icomoon/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/icomoon/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/icomoon/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/open-iconic/open-iconic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/open-iconic/open-iconic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/open-iconic/open-iconic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/open-iconic/open-iconic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/boats.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/destination-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/destination-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/destination-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/destination-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/destination-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/destination-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/hotel-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/hotel-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/hotel-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/hotel-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/hotel-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/hotel-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/image_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/kalinchowk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/khap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/khaptad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/khaptadbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/loc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mount.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mountain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/parag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/person_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/person_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/person_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/person_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pokh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pokhara.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/restaurant-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/restaurant-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/restaurant-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/restaurant-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/restaurant-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/restaurant-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/room-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/room-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/room-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/room-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/room-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/room-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/aos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/css/mixins/_text-hide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/flaticon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/icomoon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/jquery.timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/open-iconic-bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/backup.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/font/Flaticon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/font/_flaticon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/font/flaticon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/flaticon/font/flaticon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/ionicons/css/_ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/ionicons/css/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/ionicons/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/open-iconic/open-iconic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/aos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/google-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-migrate-3.0.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.animateNumber.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.stellar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/scrollax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_button-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_custom-forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_input-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_root.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap-reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_box-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_breakpoints.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_caret.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_hover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-hide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-truncate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_borders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_display.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_screenreaders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_shadows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_spacing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/events/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/aos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/css/mixins/_text-hide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flaticon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/icomoon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/jquery.timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/open-iconic-bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/backup.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/_flaticon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/flaticon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/flaticon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/icomoon/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/ionicons/css/_ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/ionicons/css/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/open-iconic/open-iconic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/aos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/google-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-migrate-3.0.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.animateNumber.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.stellar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/scrollax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_button-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_custom-forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_input-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_root.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_box-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_breakpoints.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_caret.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_hover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_text-hide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_text-truncate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_borders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_display.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_screenreaders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_shadows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_spacing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Yomari2020.iml" afterPath="$PROJECT_DIR$/.idea/Yomari2020.iml" />
+    <list default="true" id="7724b59f-4169-499f-a66c-e6ccec56105e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yomari2020/settings.py" afterPath="$PROJECT_DIR$/Yomari2020/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yomari2020/urls.py" afterPath="$PROJECT_DIR$/Yomari2020/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -423,7 +20,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Yomari2020/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="2667">
               <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
               <folding />
             </state>
@@ -433,7 +30,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="63">
               <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -442,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -454,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -467,11 +64,9 @@
       <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="147">
               <caret line="76" column="183" lean-forward="false" selection-start-line="76" selection-start-column="183" selection-end-line="76" selection-end-column="183" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -780,6 +375,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -877,14 +478,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26476908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -916,6 +518,58 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Yomari2020/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2667">
+          <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="76" column="183" lean-forward="false" selection-start-line="76" selection-start-column="183" selection-end-line="76" selection-end-column="183" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/css/mixins/_text-hide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yomari2020/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -926,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,9 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21672">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yomari2020/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="2667">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
           <folding />
         </state>
@@ -1082,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/events/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="63">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -1094,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,23 +754,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="147">
           <caret line="76" column="183" lean-forward="false" selection-start-line="76" selection-start-column="183" selection-end-line="76" selection-end-column="183" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,6 +767,16 @@
         <state relative-caret-position="105">
           <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
