@@ -1,59 +1,7 @@
-<html lang="en">
-  <head>
-    <title>Nepal Connects</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      {% load static  %}
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
-
-    <link rel="stylesheet" href="{%  static "css/open-iconic-bootstrap.min.css" %}">
-    <link rel="stylesheet" href="{%  static "css/animate.css" %}">
-    
-    <link rel="stylesheet" href="{%  static "css/owl.carousel.min.css" %}">
-    <link rel="stylesheet" href="{%  static "css/owl.theme.default.min.css" %}">
-    <link rel="stylesheet" href="{%  static "css/magnific-popup.css" %}">
-
-    <link rel="stylesheet" href="{%  static "css/aos.css" %}">
-
-    <link rel="stylesheet" href="{%  static "css/ionicons.min.css" %}">
-
-    <link rel="stylesheet" href="{%  static "css/bootstrap-datepicker.css" %}">
-    <link rel="stylesheet" href="{%  static "css/jquery.timepicker.css" %}">
-
-    
-    <link rel="stylesheet" href="{%  static "css/flaticon.css" %}">
-    <link rel="stylesheet" href="{%  static "css/icomoon.css" %}">
-    <link rel="stylesheet" href="{%  static "css/style.css" %}">
-	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  </head>
-  <body>
-  
-   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Nepal Connects</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="message.html" class="nav-link">Message</a></li>
-          <li class="nav-item"><a href="profile.html" class="nav-link">Profile</a></li>
- {% if user.is_authenticated %}
-                   <li class="nav-item cta"><a href="{% url 'logout' %}" class="nav-link"><span>Welcome, {{ user.get_username }}</span></a></li>
-
-        {% else %}
-              <li class="nav-item cta"><a href="{% url 'login' %}" class="nav-link"><span>Log in</span></a></li>
-        {% endif %}        </ul>
-      </div>
-    </div>
-  </nav>
-    <!-- END nav -->
-	
-	<div class="hero-wrap" style="background-image: url('static/images/khaptadbg.jpg');">
+{% extends 'base.html' %}
+{% block title %}Events{% endblock %}
+{% block body %}
+	<div class="hero-wrap" style="background-image: url('static/images/bhaktapur.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -64,6 +12,102 @@
         </div>
       </div>
     </div>
+
+   	<!-- css is button-style.css -->
+
+	<section id='sectioncolor' class="ftco-section" >
+
+      <div class="container">
+			<div class="main-nav">
+			<a class="cd-signin" href="#event-form"><button class="btn draw-border"><i class="fa fa-plus"></i>    Create Event</button></a>
+          </div>
+
+      </div>
+    </section>
+
+	<div id='event-form' class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+		<div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+
+
+
+<div class="container-contact100">
+			<div class="wrap-contact100">
+{#			<form action="{% url 'create_event' %}" method="POST" class="contact100-form validate-form">#}
+				<span class="contact100-form-title">
+					Create Event
+				</span>
+
+
+
+			<div id="cd-login"> <!-- log in form -->
+				<form action="{% url 'create_event' %}" method="POST" class="cd-form" >
+{% csrf_token %}
+				<div class="wrap-input100 input100-select">
+					<span class="label-input100">Event Type</span>
+					<div>
+						<select class="selection-2" name="event_type">
+                            {%  for event_type in event_types %}
+                                <option value="{{ event_type.id }}">{{ event_type.EventType }}</option>
+                            {% endfor %}
+
+						</select>
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+
+
+					<div class="wrap-input100 validate-input" data-validate="Location is required">
+					<span class="label-input100">Location</span>
+					<select class="selection-2" name="location">
+                            {%  for location in locations %}
+                                <option value="{{ location.id }}">{{ location.LocationName }}</option>
+                            {% endfor %}
+
+						</select>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Date is required">
+					<span class="label-input100">Date</span>
+					<input class="input100" type="date" name="date" placeholder="Enter Date">
+					<span class="focus-input100"></span>
+				</div>
+
+
+
+
+
+				<div class="wrap-input100 validate-input" data-validate = "Description is required">
+					<span class="label-input100">Description</span>
+					<textarea class="input100" name="description" placeholder="Your description here.."></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button type="submit" class="contact100-form-btn">
+							<span>
+								Post
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+				</form>
+
+		</div>
+<div id="dropDownSelect1"></div>
+
+
+{#            </form> #}
+            </div>
+
+			<a href="#0" class="cd-close-form">Close</a>
+		</div> <!-- cd-user-modal-container -->
+		</div>
+	</div> <!-- cd-user-modal -->
+
 	
 	<section class="ftco-section bg-light">
     	<div class="container">
@@ -83,23 +127,15 @@
     					</a>
     					<div class="text p-3">
     						<h3><i class="icon-map-marker" style='color:#Af002A'></i> {{ event.EventLocation.LocationName }}</h3>
-    						<!-- <p class="rate">
-    							<i class="icon-star"></i>
-    							<i class="icon-star"></i>
-    							<i class="icon-star"></i>
-    							<i class="icon-star"></i>
-    							<i class="icon-star-o"></i>
-    							<span>2 Days 1 Nights</span>
-    						</p> -->
-							<span><strong> 2 Days 1 Nights </strong></span>
+
     						<p> Category: {{ event.EventTypeDescription }}<br>
-							Attractions: Snowfall, cable car, religious temples, aesthetic homes<br>
+
 							Description: {{ event.EventDescription }}</p>
     						<hr>
     						<p class="bottom-area d-flex">
     							<span><i class='far fa-calendar-alt' style='font-size:16px;color:#752419' ></i>  Date: {{ event.EventDate }}</span>
 							
-    							<span class="ml-auto"><a href="#">Join Group</a></span>
+    							<span class="ml-auto"><a href="{% url 'join_chat' %}?room={{ event.EventTypeDescription }}">Join Group</a></span>
     						</p>
     					</div>
     				</div>
@@ -116,40 +152,4 @@
 	
 	
 	
-	<footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-	    <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-	
-	<!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="{%  static "js/jquery.min.js" %}"></script>
-  <script src="{%  static "js/jquery-migrate-3.0.1.min.js"%}"></script>
-  <script src="{%  static "js/popper.min.js"%}"></script>
-  <script src="{%  static "js/bootstrap.min.js"%}"></script>
-  <script src="{%  static "js/jquery.easing.1.3.js"%}"></script>
-  <script src="{%  static "js/jquery.waypoints.min.js"%}"></script>
-  <script src="{%  static "js/jquery.stellar.min.js"%}"></script>
-  <script src="{%  static "js/owl.carousel.min.js"%}"></script>
-  <script src="{%  static "js/jquery.magnific-popup.min.js"%}"></script>
-  <script src="{%  static "js/aos.js"%}"></script>
-  <script src="{%  static "js/jquery.animateNumber.min.js"%}"></script>
-  <script src="{%  static "js/bootstrap-datepicker.js"%}"></script>
-  <script src="{%  static "js/jquery.timepicker.min.js"%}"></script>
-  <script src="{%  static "js/scrollax.min.js"%}"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="{%  static "js/google-map.js"%}"></script>
-  <script src="{%  static "js/main.js"%}"></script>
-    
-  </body>
-</html>
+{% endblock %}

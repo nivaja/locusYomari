@@ -10,7 +10,7 @@
 			window.location=" {% url 'room' %}"
 		</script>
 	{% endif %}
-
+	
 	
 <script type="text/javascript">
 var auto_refresh = setInterval(
@@ -20,17 +20,18 @@ $('#load_tweets').load('{% url "fetch" %}').fadeIn("slow");
 }, 90); 
 console.log('this is my text', auto_refresh);
 </script>
-<h3 class="text-center"> <kbd>Room: {{request.session.roomName}}</kbd></h3>
-<form  class="form-group"> 
+<h2 class="text-center" style="color: black">{{request.session.roomName}}</h2>
+
+<div id="load_tweets" ></div>
+    <form  class="form-group">
 <!-- <form id='chat_form'>-->
 	<div class="container">
 	<div class='row'>
-		<div class = "col-sm-5"><input type='text' id='chat' name='chat' placeholder="Type your message here ..." class="form-control"> </div>
-		<div class="col-sm-7"><input type='submit' value='Send' id = 'send' class="btn btn-success"></div>
+		<div class = "col-sm-5"><input type='text' id='chat' name='chat' placeholder="Type your message here ..." class="form-control" style="padding-left: 100px" > </div>
+		<div class="col-sm-7"><input type='submit' value='Send' id = 'send' class="btn btn-primary"></div>
 	</div>
-    </div>
+
 </form>
-<div id="load_tweets"> </div>
 <script>
 $(document).on('click','#send',function(e){
 	e.preventDefault()
@@ -46,13 +47,24 @@ $(document).on('click','#send',function(e){
 		}
 	});
 });
+function updateScroll(){
+    if(!scrolled){
+        let element = document.getElementById("load_tweets");
+        element.scrollBottom = element.scrollHeight;
+    }
+}
+
+$("#load_tweets").on('scroll', function(){
+    scrolled = true;
+});
 
 </script>
 
 {% else %}
 <script type="text/javascript">
-	alert("Please Login. . .")
-	window.location=" {% url 'login' %}"
+	alert("Please Login. . .");
+	window.location=" {% url 'login' %}";
+
 </script>
 {% endif %}
 

@@ -1,84 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Nepal Connects</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+{% extends 'base.html' %}
+{% block title %} Nepal Connects{% endblock %}
+      {% load static  %}
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+{% block body %}
 
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-  
-   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Nepal Connects</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="message.html" class="nav-link">Message</a></li>
-          <li class="nav-item"><a href="profile.html" class="nav-link">Profile</a></li>
-          <li class="nav-item cta"><a href="login.html" class="nav-link"><span>Log in</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <!-- END nav -->
-	
-	<div class="hero-wrap js-fullheight" style="background-image: url('images/boats.jpg');">
+    	<div class="hero-wrap js-fullheight" style="background-image: url('{% static 'images/boats.jpg' %}');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Explore <br></strong> the Phenomenal Nepal</h1>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Explore</strong> Nepal</h1>
             <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Find amazing companions to travel with</p>
             <div class="block-17 my-4">
-              <form action="" method="post" class="d-block d-flex">
+              <form action="{% url 'search' %}"  method="GET" class="d-block d-flex">
                 <div class="fields d-block d-flex">
                   <div class="textfield-search one-third">
-                  	<input type="text" class="form-control" placeholder="Search">
+                  	<input name="query" type="text" class="form-control" placeholder="Search">
                   </div>
-                  
+
                 </div>
-                <input type="submit" class="search-submit btn btn-primary" value="Search">  
+                <input type="submit" class="search-submit btn btn-primary" value="Search">
               </form>
             </div>
             <!-- <p>Or browse the highlights</p>
             <p class="browse d-md-flex">
             	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-fork"></i>Restaurant</a></span>
-            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span> 
-            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span> 
+            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span>
+            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span>
             	<span class="d-flex justify-content-md-center align-items-md-	center"><a href="#"><i class="flaticon-shopping-bag"></i>Shopping</a></span>
             </p> -->
           </div>
         </div>
       </div>
     </div>
-	
+
 	<section class="ftco-section services-section bg-light">
       <div class="container">
         <div class="row d-flex">
@@ -89,7 +44,7 @@
                 <h3 class="heading mb-3">Choose</h3>
                 <p>Choose the destination that you want to travel.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
@@ -98,7 +53,7 @@
                 <h3 class="heading mb-3">Connect</h3>
                 <p>Connect with people having same end destination.</p>
               </div>
-            </div>    
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
@@ -107,7 +62,7 @@
                 <h3 class="heading mb-3">Plan</h3>
                 <p>Plan for the trip via group chat.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
@@ -116,16 +71,16 @@
                 <h3 class="heading mb-3">Travel</h3>
                 <p>Travel along with amazing companions.</p>
               </div>
-            </div>      
+            </div>
           </div>
         </div>
       </div>
     </section>
-	
+
 
     <!-- NIVAJA PART-->
-	
-    <section class="ftco-section ftco-destination">
+
+       <section class="ftco-section ftco-destination">
     	<div class="container">
     		<div class="row justify-content-start mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate">
@@ -137,161 +92,130 @@
     			<div class="col-md-12">
     				<div class="destination-slider owl-carousel ftco-animate">
     					<div class="item">
-		    				<div class="destination">
-										<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/restaurant-1.jpg);">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="icon-search2"></span>
-									</div>
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/ABC.jpg);">
+
 								</a>
 								<div class="text p-3">
-									<h3><a href="#">Luxury Restaurant</a></h3>
-									<p class="rate">
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star-o"></i>
-										<span>8 Rating</span>
-									</p>
-									<p>Far far away, behind the word mountains, far from the countries</p>
-									<hr>
-									<p class="bottom-area d-flex">
-										<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-										<span class="ml-auto"><a href="#">Discover</a></span>
-									</p>
-								</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="destination">
-										<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/restaurant-1.jpg);">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="icon-search2"></span>
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Annapurna Base Camp Trek</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$1090</span>
+										</div>
 									</div>
-								</a>
-								<div class="text p-3">
-									<h3><a href="#">Luxury Restaurant</a></h3>
-									<p class="rate">
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star-o"></i>
-										<span>8 Rating</span>
-									</p>
-									<p>Far far away, behind the word mountains, far from the countries</p>
+									<p>It is a spectacular journey towards the wondrous mountains, the magnificent nature and cultural richness. </p>
+									<p class="days"><span>14 days</span></p>
 									<hr>
 									<p class="bottom-area d-flex">
-										<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-										<span class="ml-auto"><a href="#">Discover</a></span>
+										<span><i class="icon-map-o"></i> Ghandruk</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
 									</p>
 								</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="destination">
-										<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/restaurant-1.jpg);">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="icon-search2"></span>
-									</div>
-								</a>
-								<div class="text p-3">
-									<h3><a href="#">Luxury Restaurant</a></h3>
-									<p class="rate">
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star-o"></i>
-										<span>8 Rating</span>
-									</p>
-									<p>Far far away, behind the word mountains, far from the countries</p>
-									<hr>
-									<p class="bottom-area d-flex">
-										<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-										<span class="ml-auto"><a href="#">Discover</a></span>
-									</p>
-								</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="destination">
-										<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/restaurant-1.jpg);">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="icon-search2"></span>
-									</div>
-								</a>
-								<div class="text p-3">
-									<h3><a href="#">Luxury Restaurant</a></h3>
-									<p class="rate">
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star-o"></i>
-										<span>8 Rating</span>
-									</p>
-									<p>Far far away, behind the word mountains, far from the countries</p>
-									<hr>
-									<p class="bottom-area d-flex">
-										<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-										<span class="ml-auto"><a href="#">Discover</a></span>
-									</p>
-								</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="destination">
-										<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/restaurant-1.jpg);">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="icon-search2"></span>
-									</div>
-								</a>
-								<div class="text p-3">
-									<h3><a href="#">Luxury Restaurant</a></h3>
-									<p class="rate">
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star-o"></i>
-										<span>8 Rating</span>
-									</p>
-									<p>Far far away, behind the word mountains, far from the countries</p>
-									<hr>
-									<p class="bottom-area d-flex">
-										<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-										<span class="ml-auto"><a href="#">Discover</a></span>
-									</p>
-								</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="destination">
-									<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/restaurant-1.jpg);">
-								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="icon-search2"></span>
-								</div>
-							</a>
-							<div class="text p-3">
-								<h3><a href="#">Luxury Restaurant</a></h3>
-								<p class="rate">
-									<i class="icon-star"></i>
-									<i class="icon-star"></i>
-									<i class="icon-star"></i>
-									<i class="icon-star"></i>
-									<i class="icon-star-o"></i>
-									<span>8 Rating</span>
-								</p>
-								<p>Far far away, behind the word mountains, far from the countries</p>
-								<hr>
-								<p class="bottom-area d-flex">
-									<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-									<span class="ml-auto"><a href="#">Discover</a></span>
-								</p>
 							</div>
-		    				</div>
 	    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/eve.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Everest Base Camp</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$1420</span>
+										</div>
+									</div>
+									<p>Conquering the Mt Everest is every adventurers dream destination.</p>
+									<p class="days"><span>16 days</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Lukla</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/langtang.jpg);">
+
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Langtang Valley Trek</a></h3>
+
+	    						</div>
+	    						<div class="two">
+	    							<span class="price">$750</span>
+    							</div>
+    						</div>
+    						<p>Langtang, with over 70 glaciers is the valley of glaciers. The best hidden destination of Nepal.</p>
+    						<p class="days"><span>10 days</span></p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Langtang</span>
+    							<span class="ml-auto"><a href="#">Join</a></span>
+    						</p>
+    					</div>
+    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/manaslu.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Manaslu Circuit Trek </a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$1550</span>
+										</div>
+									</div>
+									<p>One of the hidden valleys of the country.In this trek you witness epic sceneries crossing many suspension bridges.</p>
+									<p class="days"><span>17 days</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Manaslu</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+
+	    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/kc.jpg);">
+
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Kanchenjunga Base Camp Trek</a></h3>
+
+	    						</div>
+	    						<div class="two">
+	    							<span class="price">$1200</span>
+    							</div>
+    						</div>
+    						<p>"Kanchenjunga” stands for crystal clear in Nepali. It is popularly known as the “Five Treasures of the Great Snow”</p>
+    						<p class="days"><span>26 days</span></p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Kanchenjunga Region</span>
+    							<span class="ml-auto"><a href="#">Join</a></span>
+    						</p>
+    					</div>
+    				</div>
+
+
     				</div>
     			</div>
     		</div>
@@ -299,200 +223,690 @@
     </section>
 
 
-	
+
 	<section class="ftco-section bg-light">
     	<div class="container">
-				<div class="row justify-content-start mb-5 pb-3">
+    		<div class="row justify-content-start mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate">
           	<span class="subheading">Category</span>
             <h2 class="mb-4"><strong>Hiking</strong> Destinations</h2>
           </div>
-        </div>    		
-    	</div>
-    	<div class="container-fluid">
+        </div>
     		<div class="row">
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
-    				<div class="destination">
-    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-1.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
+    			<div class="col-md-12">
+    				<div class="destination-slider owl-carousel ftco-animate">
+    					<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/nag.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Nagarkot Hiking</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$105</span>
+										</div>
+									</div>
+									<p>Given that its breathtaking sights of the majestic Himalayas a cand flourishing forest in charming rural atmosphere.</p>
+									<p class="days"><span>3-3.5 hrs</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Nagarkot</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/chisa.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Chisapani Hiking</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$120</span>
+										</div>
+									</div>
+									<p>Chisapani provides excellent short tramp which is renowned among hikers.The hike starts from Sundarijal.</p>
+									<p class="days"><span>5 hrs</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Chisapani</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/shiva.jpg);">
+
     					</a>
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
-		    						<p class="rate">
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star-o"></i>
-		    							<span>8 Rating</span>
-		    						</p>
+		    						<h3><a href="#">Shivapuri Hiking</a></h3>
+
 	    						</div>
 	    						<div class="two">
-	    							<span class="price">$200</span>
+	    							<span class="price">$27-50</span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
+    						<p>This is not just a trail, but a spot that provides a panoramic view of Kathmandu valley, langtang and various himalayan ranges</p>
+    						<p class="days"><span>3 hrs</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Discover</a></span>
+    							<span><i class="icon-map-o"></i> Shivapuri</span>
+    							<span class="ml-auto"><a href="#">Join</a></span>
     						</p>
     					</div>
     				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
-    				<div class="destination">
-    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-2.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3">
-    						<div class="d-flex">
-    							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
-		    						<p class="rate">
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star-o"></i>
-		    							<span>8 Rating</span>
-		    						</p>
-	    						</div>
-	    						<div class="two">
-	    							<span class="price">$200</span>
-    							</div>
-    						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
-    						<hr>
-    						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Discover</a></span>
-    						</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
-    				<div class="destination">
-    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-3.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3">
-    						<div class="d-flex">
-    							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
-		    						<p class="rate">
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star-o"></i>
-		    							<span>8 Rating</span>
-		    						</p>
-	    						</div>
-	    						<div class="two">
-	    							<span class="price">$200</span>
-    							</div>
-    						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
-    						<hr>
-    						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Discover</a></span>
-    						</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
-    				<div class="destination">
-    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-4.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3">
-    						<div class="d-flex">
-    							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
-		    						<p class="rate">
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star-o"></i>
-		    							<span>8 Rating</span>
-		    						</p>
-	    						</div>
-	    						<div class="two">
-	    							<span class="price">$200</span>
-    							</div>
-    						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
-    						<hr>
-    						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Discover</a></span>
-    						</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
-    				<div class="destination">
-    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-5.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3">
-    						<div class="d-flex">
-    							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
-		    						<p class="rate">
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star"></i>
-		    							<i class="icon-star-o"></i>
-		    							<span>8 Rating</span>
-		    						</p>
-	    						</div>
-	    						<div class="two">
-	    							<span class="price">$200</span>
-    							</div>
-    						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
-    						<hr>
-    						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Discover</a></span>
-    						</p>
-    					</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/lakuri.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Lakuri Bhanjyang Hiking</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$60</span>
+										</div>
+									</div>
+									<p>You will find yourself among the cooperative local people viewing remarkable scenic spot for sunrise. </p>
+									<p class="days"><span>6-7hrs</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Lakuri Bhanjyang</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+
+
+
+
+
     				</div>
     			</div>
     		</div>
     	</div>
     </section>
-	
-	<section class="ftco-section">
+
+	<section class="ftco-section ftco-destination">
+    	<div class="container">
+    		<div class="row justify-content-start mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate">
+          	<span class="subheading">Category</span>
+            <h2 class="mb-4"><strong>Historical</strong> Destinations</h2>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="destination-slider owl-carousel ftco-animate">
+    					<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/ktm.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Kathmandu Durbar Square</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$10</span>
+										</div>
+									</div>
+									<p>The seat of royalty till the last century, Kathmandu Durbar Square is a wondrous cluster of ancient temples, palaces, courtyards and streets.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Kathmandu</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/swam.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Swayambhunath Stupa</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$2</span>
+										</div>
+									</div>
+									<p>One of the world's oldest Buddhist shrines, the stupa graces a hilltop, 77 m. above the valley bottom.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Kathmandu</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/boud.jpg);">
+
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Bouddhanath Stupa</a></h3>
+
+	    						</div>
+	    						<div class="two">
+	    							<span class="price">$4</span>
+    							</div>
+    						</div>
+    						<p>Bouddhanath is protected by UNISCO world heritage site. Bouddhanath is among the largest Stupas in the south Asia and it has become focal point of Tibetan Buddhism in Nepal.</p>
+    						<p class="days"><span></span></p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Kathmandu</span>
+    							<span class="ml-auto"><a href="#">Join</a></span>
+    						</p>
+    					</div>
+    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/lumbini.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Lumbini</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$195</span>
+										</div>
+									</div>
+									<p>Lumbini is famous for being the birthplace of Siddhartha Gautama, the historic Buddha, known as Buddha Shakyamuni.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Lumbini</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/pashu.jpeg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Shree Pashupatinath Temple</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$10</span>
+										</div>
+									</div>
+									<p>This is the largest Hindu temple in the world devoted to Lord Shiva. It is one of the famous Nepal’s Historical sites.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Kathmandu</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+
+	<section class="ftco-section bg-light">
+    	<div class="container">
+    		<div class="row justify-content-start mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate">
+          	<span class="subheading">Category</span>
+            <h2 class="mb-4"><strong>Sight Seeing</strong> Destinations</h2>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="destination-slider owl-carousel ftco-animate">
+    					<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/poke.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Pokhara</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$14 per day</span>
+										</div>
+									</div>
+									<p>Pokhara offers incredible opportunity for paragliding like no destination can, and yet it maintains its poise and tranquility to serve as one travel places in Nepal that you cannot ever forget.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Pokhara</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/band.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Bandipur</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$30</span>
+										</div>
+									</div>
+									<p>Bandipur is a small, authentic village/small town in Nepal. Bandipur is famous for its pure and natural surrounding and life style. It’s the complete package for anyone who is willing to spend the weekend in the lap of mother nature</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Bandipur</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/ktmcity.jpg);">
+
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Kathmandu</a></h3>
+
+	    						</div>
+	    						<div class="two">
+	    							<span class="price">$43</span>
+    							</div>
+    						</div>
+    						<p>Kathmandu, the capital and largest city in Nepal, is like no other city in the world. The decaying buildings in the heart of the city are a contrast to the lively atmosphere that permeates the streets.</p>
+    						<p class="days"><span></span></p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Kathmandu</span>
+    							<span class="ml-auto"><a href="#">Join</a></span>
+    						</p>
+    					</div>
+    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/bkt.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Bhaktapur</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$15</span>
+										</div>
+									</div>
+									<p>Bhaktapur, the third of the "Royal Cities," lies on the old trade route to Tibet, just outside of Kathmandu. For Bhaktapur, the trade route was both an arterial link and major source of wealth</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Bhaktapur</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+
+
+
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+	<section class="ftco-section ftco-destination">
+    	<div class="container">
+    		<div class="row justify-content-start mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate">
+          	<span class="subheading">Category</span>
+            <h2 class="mb-4"><strong>Adventurous</strong> Destinations</h2>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="destination-slider owl-carousel ftco-animate">
+    					<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/bungee.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Bungee Jumping</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$100</span>
+										</div>
+									</div>
+									<p>Bungee Jump might not be an adventure exclusive to Nepal, but Bungee jump in Nepal is like no other!</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Last Resort | Pokhara</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/raft.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Rafting</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$37</span>
+										</div>
+									</div>
+									<p>If walking or free falling doesn’t give you the adrenaline rush when you have to try out the splashing and waving and twisting and turning sport of rafting.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Karnali and many more</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/canyon.jpg);">
+
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Canyoning</a></h3>
+
+	    						</div>
+	    						<div class="two">
+	    							<span class="price">$85</span>
+    							</div>
+    						</div>
+    						<p>If you are a water sports lover then you have to try canyoning at least once in your life.  Once you do it, you are sure to ask for more. </p>
+    						<p class="days"><span></span></p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Pokhara | Chitwan</span>
+    							<span class="ml-auto"><a href="#">Join</a></span>
+    						</p>
+    					</div>
+    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/para.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Paragliding</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$95</span>
+										</div>
+									</div>
+									<p>Ever wondered how it feels to be a bird and then view the earth down. To soar above the highest peaks in the world, beautiful lakes, rivers, and forests are much fun filled.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Pokhara</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/zip.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#"> Zip flyer</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price">$78</span>
+										</div>
+									</div>
+									<p>Do you want to fly (more like glide) from a higher spot to the lower plains? Do you wish a secured harness to the zip line? Then zip flyer could be the thrill you have been waiting for.</p>
+									<p class="days"><span></span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Pokhara | Dhulikhel</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+
+	<section class="ftco-section bg-light">
+    	<div class="container">
+    		<div class="row justify-content-start mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate">
+          	<span class="subheading">Category</span>
+            <h2 class="mb-4"><strong>Festivals</strong></h2>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="destination-slider owl-carousel ftco-animate">
+    					<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/indra.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Indra Jatra</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price"></span>
+										</div>
+									</div>
+									<p>The exciting festival of chariot processions, masked dances, religious enactments, lights, color & Living Goddess Kumari as the center of celebrations.</p>
+									<p class="days"><span>September</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> Kathmandu</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/holi.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Holi</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price"></span>
+										</div>
+									</div>
+									<p> During this colorful festival, Nepalese and foreign tourists will throw each other with dry powder and colored water to express their sincere blessings and good wishes.</p>
+									<p class="days"><span>March</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> All over Nepal</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/dash.jpg);">
+
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Dashain</a></h3>
+
+	    						</div>
+	    						<div class="two">
+	    							<span class="price"></span>
+    							</div>
+    						</div>
+    						<p>This is the longest Hindu festival in Nepal, traditionally celebrated for two weeks with prayers and offerings to Durga. The great harvest festival of Nepal, Dashain is a time for family reunions, exchange of gifts and blessings, and elaborate pujas.</p>
+    						<p class="days"><span>October</span></p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> All over Nepal</span>
+    							<span class="ml-auto"><a href="#">Join</a></span>
+    						</p>
+    					</div>
+    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/tihar.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Tihar</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price"></span>
+										</div>
+									</div>
+									<p>Tihar is among the largest and the most dazzling festivals of Nepali Hindus. Besides witnessing the great festival, this tour will also provide an opportunity to visit some of the wonders of Kathmandu Valley.</p>
+									<p class="days"><span>October</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> All over Nepal</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+	    				<div class="item">
+									<div class="destination">
+								<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/gai.jpg);">
+
+								</a>
+								<div class="text p-3">
+									<div class="d-flex">
+										<div class="one">
+											<h3><a href="#">Gai Jatra</a></h3>
+
+										</div>
+										<div class="two">
+											<span class="price"></span>
+										</div>
+									</div>
+									<p>Gai Jatra is a festival of dancing, singing, mirth and laughter. The festival of cow is celebrated in the Kathmandu Valley to commemorate the death of loved ones.</p>
+									<p class="days"><span>August</span></p>
+									<hr>
+									<p class="bottom-area d-flex">
+										<span><i class="icon-map-o"></i> All over Nepal</span>
+										<span class="ml-auto"><a href="#">Join</a></span>
+									</p>
+								</div>
+							</div>
+	    				</div>
+
+
+
+
+
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
     	<div class="container">
 				<div class="row justify-content-start mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate">
           	<span class="subheading">Special Offers</span>
             <h2 class="mb-4"><strong>Popular</strong> Restaurants</h2>
           </div>
-        </div>    		
+        </div>
     		<div class="row">
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="destination">
@@ -514,7 +928,7 @@
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -540,7 +954,7 @@
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -566,7 +980,7 @@
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -592,7 +1006,7 @@
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -601,41 +1015,4 @@
     		</div>
     	</div>
     </section>
-	
-	<footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-	    <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-	
-	<!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
-  </body>
-</html>
+{% endblock %}

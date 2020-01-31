@@ -1,23 +1,30 @@
-
-<div class="container">
-	<div class='row alert-success'>
-{% for data in data1 reversed%}
+<div class="container" xmlns:style="http://www.w3.org/1999/xhtml">
+	<div class='row alert-success' style="background-color: white">
+{% for data in data1   %}
 
 
 {% if data.uid == request.session.id%}
-	<div class='row alert-success'>
+	<div class='row alert-success' style="background-color: white">
 	
-		<div class="col-md-1"> </div>
-  		<div class="col-md-11 text-right"><label><pre>{{data.chat}}</pre></label></div>
+		<div class="col-md-1" style="overflow:hidden; margin:26px 0 26px; float: right;width: 46; background-color: white"> </div>
+  		<div class="col-md-11 text-right "  style="background-color: white"><label><pre style="background: dodgerblue;color: white;  font-size: 14px;
+  margin: 0; border-radius: 25px;
+  padding: 20px;
+  width: 100%;
+  height: 16%;"  >{{data.chat}}</pre></label></div>
   </div>
 	{% else %}
 
-	<div class='row alert-success'>
-    	<div class="col-md-10"><label><pre>{{data.chat}}</pre></label></div>
+	<div class='row alert-success' style="background-color: white">
+    	<div class="col-md-10" style="background-color: white"><label><div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="user" style="float: left;
+  width: 30px;"> </div><pre style="  background: #cccccc;color: black;
+  font-size: 14px;
+  margin: 0; border-radius: 25px;
+  padding: 20px;
+  width: 100%;
+  height: 16%;">{{data.chat}}</pre></label> </div>
     	<div class="col-md-2"></div>
 	</div>
 	<hr>
 	{% endif %}
 {% endfor %}
-    </div>
-</div>
