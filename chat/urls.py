@@ -14,5 +14,5 @@ urlpatterns=[
 	path('chat_sender/',views.chat_sender,name='chat_sender'),
 	path('fetch/',views.fetch,name='fetch'),
 	path('room/',views.room,name='room'),
-	path('selectRoom/',views.selectRoom,name='selectRoom')
+	path('selectRoom',views.selectRoom,name='selectRoom')
 ]

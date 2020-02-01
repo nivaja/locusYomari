@@ -1,153 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/chat/views.py" line="31" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/chat/views.py" line="32" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7724b59f-4169-499f-a66c-e6ccec56105e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-ExtraBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-ExtraLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-SemiBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/poppins/Poppins-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ABC.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/Annapurna-Base-Camp-Trek-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/band.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bhaktapur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bkt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/boud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/boudha1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/boudha2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bungee.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/canyon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/chisa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/das.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/dash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/eve.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gosai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/holi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/indra.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/kc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ktm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ktmcity.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lakuri.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/langtang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lumbini.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/manaslu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mustang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/nag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/para.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/park.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pashu.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pasu" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pasu.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/poke.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/raft.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/random.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/shiva.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/swam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/tihar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/zip.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/button-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/modall/style-boot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/css/util.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/animate/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/animsition/css/animsition.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/animsition/css/animsition.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/animsition/js/animsition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/animsition/js/animsition.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/js/popper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/js/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/bootstrap/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/countdowntime/countdowntime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/css-hamburgers/hamburgers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/css-hamburgers/hamburgers.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/daterangepicker/daterangepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/daterangepicker/daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/daterangepicker/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/daterangepicker/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/jquery/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/perfect-scrollbar/perfect-scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/select2/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/select2/select2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/select2/select2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/form/vendor/select2/select2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/modall/script-boot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ABC.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Annapurna-Base-Camp-Trek-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/band.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bhaktapur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bkt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boud.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boudha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boudha1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boudha2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bungee.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/canyon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chisa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/das.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/eve.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gosai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/holi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/indra.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/khap.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/khaptadbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ktm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ktmcity.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lakuri.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lumbini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manaslu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mount.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mountain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mustang.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/para.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/parag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/park.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pashu.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pasu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pasu.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/poke.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pokh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/raft.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shiva.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tihar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/zip.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/chat_new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/recommend.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/urls.py" afterPath="$PROJECT_DIR$/events/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="$PROJECT_DIR$/accounts/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/urls.py" afterPath="$PROJECT_DIR$/chat/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/views.py" afterPath="$PROJECT_DIR$/chat/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/views.py" afterPath="$PROJECT_DIR$/events/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/chat.html" afterPath="$PROJECT_DIR$/templates/chat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/events.html" afterPath="$PROJECT_DIR$/templates/events.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fetch_chat.html" afterPath="$PROJECT_DIR$/templates/fetch_chat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -165,12 +94,9 @@
       <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="352">
               <caret line="137" column="122" lean-forward="false" selection-start-line="137" selection-start-column="122" selection-end-line="137" selection-end-column="122" />
-              <folding>
-                <element signature="e#105#166#0#HTML" expanded="true" />
-                <element signature="e#4549#4570#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,18 +104,18 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="363">
+              <caret line="78" column="20" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="78" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="450">
+              <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -197,60 +123,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="344">
+              <caret line="463" column="56" lean-forward="true" selection-start-line="463" selection-start-column="56" selection-end-line="463" selection-end-column="56" />
               <folding>
                 <element signature="e#159#224#0#HTML" expanded="true" />
-                <element signature="e#33599#33654#0#HTML" expanded="true" />
-                <element signature="e#34662#34717#0#HTML" expanded="true" />
-                <element signature="e#35725#35780#0#HTML" expanded="true" />
-                <element signature="e#36788#36843#0#HTML" expanded="true" />
+                <element signature="e#4825#4887#0#HTML" expanded="true" />
+                <element signature="e#5731#5793#0#HTML" expanded="true" />
+                <element signature="e#6559#6626#0#HTML" expanded="true" />
+                <element signature="e#7458#7524#0#HTML" expanded="true" />
+                <element signature="e#8347#8408#0#HTML" expanded="true" />
+                <element signature="e#9816#9878#0#HTML" expanded="true" />
+                <element signature="e#10724#10788#0#HTML" expanded="true" />
+                <element signature="e#11593#11657#0#HTML" expanded="true" />
+                <element signature="e#12516#12581#0#HTML" expanded="true" />
+                <element signature="e#13978#14040#0#HTML" expanded="true" />
+                <element signature="e#14911#14974#0#HTML" expanded="true" />
+                <element signature="e#15773#15837#0#HTML" expanded="true" />
+                <element signature="e#16735#16801#0#HTML" expanded="true" />
+                <element signature="e#17628#17691#0#HTML" expanded="true" />
+                <element signature="e#19086#19149#0#HTML" expanded="true" />
+                <element signature="e#20061#20124#0#HTML" expanded="true" />
+                <element signature="e#21042#21108#0#HTML" expanded="true" />
+                <element signature="e#22027#22089#0#HTML" expanded="true" />
+                <element signature="e#23548#23613#0#HTML" expanded="true" />
+                <element signature="e#24446#24511#0#HTML" expanded="true" />
+                <element signature="e#25369#25432#0#HTML" expanded="true" />
+                <element signature="e#26296#26359#0#HTML" expanded="true" />
+                <element signature="e#27248#27310#0#HTML" expanded="true" />
+                <element signature="e#28750#28814#0#HTML" expanded="true" />
+                <element signature="e#29688#29751#0#HTML" expanded="true" />
+                <element signature="e#30610#30673#0#HTML" expanded="true" />
+                <element signature="e#31648#31712#0#HTML" expanded="true" />
+                <element signature="e#32640#32702#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/chat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -258,18 +166,62 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="208" column="2" lean-forward="false" selection-start-line="208" selection-start-column="2" selection-end-line="212" selection-end-column="32" />
+            <state relative-caret-position="-1945">
+              <caret line="116" column="9" lean-forward="false" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events/models.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="279">
+              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+              <folding>
+                <element signature="e#9769#9775#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recommend.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/recommend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/chat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1470">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -297,6 +249,8 @@
       <find>save</find>
       <find>chat</find>
       <find>href=&quot;loginfile/</find>
+      <find>fet</find>
+      <find>chat_se</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;{%  static &quot;</replace>
@@ -307,6 +261,13 @@
       <replace>src=&quot;{%  static &quot;form/</replace>
       <replace>href=&quot;{%  static &quot;form/</replace>
       <replace>href=&quot;{%  static &quot;loginfile/</replace>
+      <replace>url('{% static 'images/</replace>
+      <replace>style=&quot;background-image: url('{% static 'images/swam.jpg' %}')&gt;</replace>
+      <replace>style=&quot;background-image: url('{% static 'images/indra.jpg' %}')&gt;</replace>
+      <replace>style=&quot;background-image: url('{% static 'images/holi.jpg' %}')&gt;</replace>
+      <replace>style=&quot;background-image: url('{% static 'images/dash.jpg' %}')&gt;</replace>
+      <replace>style=&quot;background-image: url('{% static 'images/tihar.jpg' %}')&gt;</replace>
+      <replace>style=&quot;background-image: url('{% static 'images/gai.jpg' %}')&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -320,23 +281,25 @@
         <option value="$PROJECT_DIR$/templates/css/bootstrap/bootstrap-reboot.css" />
         <option value="$PROJECT_DIR$/events/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/events/models.py" />
-        <option value="$PROJECT_DIR$/accounts/views.py" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/chat/models.py" />
         <option value="$PROJECT_DIR$/accounts/models.py" />
-        <option value="$PROJECT_DIR$/templates/fetch_chat.html" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
         <option value="$PROJECT_DIR$/Yomari2020/settings.py" />
         <option value="$PROJECT_DIR$/Yomari2020/urls.py" />
-        <option value="$PROJECT_DIR$/chat/urls.py" />
         <option value="$PROJECT_DIR$/templates/nav_bar.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/chat.html" />
-        <option value="$PROJECT_DIR$/chat/views.py" />
         <option value="$PROJECT_DIR$/templates/events.html" />
         <option value="$PROJECT_DIR$/events/urls.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/chat.html" />
+        <option value="$PROJECT_DIR$/templates/fetch_chat.html" />
+        <option value="$PROJECT_DIR$/chat/urls.py" />
+        <option value="$PROJECT_DIR$/templates/chat_new.html" />
+        <option value="$PROJECT_DIR$/chat/views.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/recommend.html" />
         <option value="$PROJECT_DIR$/events/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -367,8 +330,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -495,6 +456,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,15 +467,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\assets" />
-      <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\images" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\templates" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static\images" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static\js" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\assets" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static" />
     </key>
   </component>
@@ -769,17 +732,17 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28410313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28839958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49785176" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -806,20 +769,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap/bootstrap-reboot.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21672">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/css/mixins/_text-hide.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -964,31 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="60" column="19" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/check_user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat_sender.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fetch_chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1003,14 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2625">
           <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1050,16 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nav_bar.html" />
     <entry file="file://$PROJECT_DIR$/Yomari2020/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1073,17 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,14 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1119,71 +1010,168 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/events/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat_sender.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chat/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15435">
+          <caret line="735" column="83" lean-forward="false" selection-start-line="735" selection-start-column="83" selection-end-line="735" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fetch_chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="208" column="2" lean-forward="false" selection-start-line="208" selection-start-column="2" selection-end-line="212" selection-end-column="32" />
+        <state relative-caret-position="-1945">
+          <caret line="116" column="9" lean-forward="false" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="352">
           <caret line="137" column="122" lean-forward="false" selection-start-line="137" selection-start-column="122" selection-end-line="137" selection-end-column="122" />
-          <folding>
-            <element signature="e#105#166#0#HTML" expanded="true" />
-            <element signature="e#4549#4570#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="363">
+          <caret line="78" column="20" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="78" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#9769#9775#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recommend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="344">
+          <caret line="463" column="56" lean-forward="true" selection-start-line="463" selection-start-column="56" selection-end-line="463" selection-end-column="56" />
           <folding>
             <element signature="e#159#224#0#HTML" expanded="true" />
-            <element signature="e#33599#33654#0#HTML" expanded="true" />
-            <element signature="e#34662#34717#0#HTML" expanded="true" />
-            <element signature="e#35725#35780#0#HTML" expanded="true" />
-            <element signature="e#36788#36843#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#4825#4887#0#HTML" expanded="true" />
+            <element signature="e#5731#5793#0#HTML" expanded="true" />
+            <element signature="e#6559#6626#0#HTML" expanded="true" />
+            <element signature="e#7458#7524#0#HTML" expanded="true" />
+            <element signature="e#8347#8408#0#HTML" expanded="true" />
+            <element signature="e#9816#9878#0#HTML" expanded="true" />
+            <element signature="e#10724#10788#0#HTML" expanded="true" />
+            <element signature="e#11593#11657#0#HTML" expanded="true" />
+            <element signature="e#12516#12581#0#HTML" expanded="true" />
+            <element signature="e#13978#14040#0#HTML" expanded="true" />
+            <element signature="e#14911#14974#0#HTML" expanded="true" />
+            <element signature="e#15773#15837#0#HTML" expanded="true" />
+            <element signature="e#16735#16801#0#HTML" expanded="true" />
+            <element signature="e#17628#17691#0#HTML" expanded="true" />
+            <element signature="e#19086#19149#0#HTML" expanded="true" />
+            <element signature="e#20061#20124#0#HTML" expanded="true" />
+            <element signature="e#21042#21108#0#HTML" expanded="true" />
+            <element signature="e#22027#22089#0#HTML" expanded="true" />
+            <element signature="e#23548#23613#0#HTML" expanded="true" />
+            <element signature="e#24446#24511#0#HTML" expanded="true" />
+            <element signature="e#25369#25432#0#HTML" expanded="true" />
+            <element signature="e#26296#26359#0#HTML" expanded="true" />
+            <element signature="e#27248#27310#0#HTML" expanded="true" />
+            <element signature="e#28750#28814#0#HTML" expanded="true" />
+            <element signature="e#29688#29751#0#HTML" expanded="true" />
+            <element signature="e#30610#30673#0#HTML" expanded="true" />
+            <element signature="e#31648#31712#0#HTML" expanded="true" />
+            <element signature="e#32640#32702#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

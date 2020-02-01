@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from .models import Chat, Room as r
 from django.http import HttpResponse, Http404
@@ -132,16 +133,20 @@ def navigation(request):
 def hackers(request):
     return render(request, "hackers.html")
 
-
+@login_required(login_url='/accounts/login')
 def chat(request):
     print("chat triggered")
 
     obj_chat = Chat.objects.all()
+    rooms = r.objects.all()
+    chats = Chat.objects.all()
 
     context = {
-        'data1': obj_chat
+        'data1': obj_chat,
+        'rooms':rooms,
+        'chats':chats
     }
-    return render(request, 'chat.html', context)
+    return render(request, 'chat_new.html', context)
 
 
 def chat_sender(request):
@@ -206,6 +211,14 @@ def room(request):
 
 
 def selectRoom(request):
+
+    if request.method=="GET":
+        request.session["roomName"] = request.GET['name']
+        request.session["roomId"] = request.GET['id']
+
+        return redirect('/chat')
+
+
     if "room" in request.POST:
         roomData = request.POST["room"].split(',')
         request.session["roomId"] = roomData[0]

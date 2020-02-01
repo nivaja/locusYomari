@@ -64,10 +64,11 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="{% url 'index' %}" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="{% url 'events' %}" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="{% url 'chat' %}" class="nav-link">Message</a></li>
 {#          <li class="nav-item"><a href="profile.html" class="nav-link">Profile</a></li>#}
  {% if user.is_authenticated %}
-                   <li class="nav-item cta"><a href="{% url 'logout' %}" class="nav-link"><span>Welcome, {{ user.get_username }}</span></a></li>
+                        <li class="nav-item"><a href="{% url 'chat' %}" class="nav-link">Message</a></li>
+
+                   <li class="nav-item cta"><a href="{% url 'logout' %}?next=/" class="nav-link"><span>Welcome, {{ user.get_username }}</span></a></li>
 
         {% else %}
               <li class="nav-item cta"><a href="{% url 'login' %}" class="nav-link"><span>Log in</span></a></li>

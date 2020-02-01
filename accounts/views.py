@@ -28,6 +28,9 @@ def login(request):
         user = auth.authenticate(username=username,password=password)
         if user is not None:
             auth.login(request,user)
+            request.session['id'] = user.id
+            request.session['user'] = user.username
+            request.session['add1'] = user.email
             print("logged in")
             return redirect("/")
 

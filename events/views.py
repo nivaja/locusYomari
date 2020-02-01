@@ -38,5 +38,6 @@ def join_chat(request):
         return redirect('/chat')
 
 def search(request):
-    query = request.GET.get('query')
-    
+    return render(request,'recommend.html')
+
+
