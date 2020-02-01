@@ -5,78 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7724b59f-4169-499f-a66c-e6ccec56105e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ABC.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Annapurna-Base-Camp-Trek-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/_DS_Store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/band.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bhaktapur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bkt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boudha.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boudha1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boudha2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bungee.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/canyon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chisa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/das.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/destination-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/eve.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gosai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/holi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/indra.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/khap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/khaptadbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ktm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ktmcity.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lakuri.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lumbini.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manaslu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mount.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mountain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mustang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/para.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/parag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/park.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pashu.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pasu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pasu.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/poke.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pokh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/raft.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shiva.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tihar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trek4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/zip.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/chat_new.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/recommend.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_399568.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bike1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bike2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bike3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bike4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/img_399568.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mck-icon-group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pasu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/rest1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/rest2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/rest3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/rest4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/trek1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/trek2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/trek3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/trek3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/trek4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="$PROJECT_DIR$/accounts/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/urls.py" afterPath="$PROJECT_DIR$/chat/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/views.py" afterPath="$PROJECT_DIR$/chat/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/views.py" afterPath="$PROJECT_DIR$/events/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/chat.html" afterPath="$PROJECT_DIR$/templates/chat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fetch_chat.html" afterPath="$PROJECT_DIR$/templates/fetch_chat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/chat_new.html" afterPath="$PROJECT_DIR$/templates/chat_new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/recommend.html" afterPath="$PROJECT_DIR$/templates/recommend.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="463" column="56" lean-forward="true" selection-start-line="463" selection-start-column="56" selection-end-line="463" selection-end-column="56" />
+            <state relative-caret-position="-582">
+              <caret line="459" column="152" lean-forward="true" selection-start-line="459" selection-start-column="152" selection-end-line="459" selection-end-column="152" />
               <folding>
                 <element signature="e#159#224#0#HTML" expanded="true" />
                 <element signature="e#4825#4887#0#HTML" expanded="true" />
@@ -143,7 +93,6 @@
                 <element signature="e#14911#14974#0#HTML" expanded="true" />
                 <element signature="e#15773#15837#0#HTML" expanded="true" />
                 <element signature="e#16735#16801#0#HTML" expanded="true" />
-                <element signature="e#17628#17691#0#HTML" expanded="true" />
                 <element signature="e#19086#19149#0#HTML" expanded="true" />
                 <element signature="e#20061#20124#0#HTML" expanded="true" />
                 <element signature="e#21042#21108#0#HTML" expanded="true" />
@@ -207,21 +156,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recommend.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="recommend.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/recommend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="247">
+              <caret line="332" column="145" lean-forward="false" selection-start-line="332" selection-start-column="128" selection-end-line="332" selection-end-column="145" />
+              <folding>
+                <element signature="e#157#218#0#HTML" expanded="true" />
+                <element signature="e#1409#1466#0#HTML" expanded="true" />
+                <element signature="e#2383#2438#0#HTML" expanded="true" />
+                <element signature="e#3340#3395#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/chat.html">
+      <file leaf-file-name="chat_new.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/chat_new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="746" column="0" lean-forward="false" selection-start-line="746" selection-start-column="0" selection-end-line="746" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -251,6 +205,7 @@
       <find>href=&quot;loginfile/</find>
       <find>fet</find>
       <find>chat_se</find>
+      <find>pashu</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;{%  static &quot;</replace>
@@ -268,6 +223,7 @@
       <replace>style=&quot;background-image: url('{% static 'images/dash.jpg' %}')&gt;</replace>
       <replace>style=&quot;background-image: url('{% static 'images/tihar.jpg' %}')&gt;</replace>
       <replace>style=&quot;background-image: url('{% static 'images/gai.jpg' %}')&gt;</replace>
+      <replace>url(static/images</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -293,13 +249,13 @@
         <option value="$PROJECT_DIR$/templates/chat.html" />
         <option value="$PROJECT_DIR$/templates/fetch_chat.html" />
         <option value="$PROJECT_DIR$/chat/urls.py" />
-        <option value="$PROJECT_DIR$/templates/chat_new.html" />
         <option value="$PROJECT_DIR$/chat/views.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/templates/recommend.html" />
         <option value="$PROJECT_DIR$/events/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/chat_new.html" />
+        <option value="$PROJECT_DIR$/templates/recommend.html" />
       </list>
     </option>
   </component>
@@ -394,6 +350,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -468,9 +428,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static\images" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\images" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\templates" />
-      <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static\images" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static\js" />
       <recent name="C:\Users\Nivaja\PycharmProjects\locusYomari\static\css" />
     </key>
@@ -716,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580406206860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project done">
+      <created>1580519822357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580519822357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -762,7 +729,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="events done" />
     <MESSAGE value="chat done" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat done" />
+    <MESSAGE value="project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="project done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1044,26 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat_new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15435">
-          <caret line="735" column="83" lean-forward="false" selection-start-line="735" selection-start-column="83" selection-end-line="735" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/fetch_chat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1120,14 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/recommend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1138,10 +1082,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="746" column="0" lean-forward="false" selection-start-line="746" selection-start-column="0" selection-end-line="746" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="463" column="56" lean-forward="true" selection-start-line="463" selection-start-column="56" selection-end-line="463" selection-end-column="56" />
+        <state relative-caret-position="-582">
+          <caret line="459" column="152" lean-forward="true" selection-start-line="459" selection-start-column="152" selection-end-line="459" selection-end-column="152" />
           <folding>
             <element signature="e#159#224#0#HTML" expanded="true" />
             <element signature="e#4825#4887#0#HTML" expanded="true" />
@@ -1157,7 +1117,6 @@
             <element signature="e#14911#14974#0#HTML" expanded="true" />
             <element signature="e#15773#15837#0#HTML" expanded="true" />
             <element signature="e#16735#16801#0#HTML" expanded="true" />
-            <element signature="e#17628#17691#0#HTML" expanded="true" />
             <element signature="e#19086#19149#0#HTML" expanded="true" />
             <element signature="e#20061#20124#0#HTML" expanded="true" />
             <element signature="e#21042#21108#0#HTML" expanded="true" />
@@ -1172,6 +1131,19 @@
             <element signature="e#30610#30673#0#HTML" expanded="true" />
             <element signature="e#31648#31712#0#HTML" expanded="true" />
             <element signature="e#32640#32702#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recommend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="332" column="145" lean-forward="false" selection-start-line="332" selection-start-column="128" selection-end-line="332" selection-end-column="145" />
+          <folding>
+            <element signature="e#157#218#0#HTML" expanded="true" />
+            <element signature="e#1409#1466#0#HTML" expanded="true" />
+            <element signature="e#2383#2438#0#HTML" expanded="true" />
+            <element signature="e#3340#3395#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
